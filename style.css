@@ -1,0 +1,34 @@
+body {
+    background-color: red;
+    /* On pages < 1000px, fine to use full width */
+    /* On pages . 1000px, width of main content should be restricted */
+}
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+@media only screen and (max-width: 1000px){
+    body{
+        background-color:green;
+    }
+    main{
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+}
+@media only screen and (max-width: 800px) {
+    body{
+        background-color: blue;
+    }
+}
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: yellow;
+    }
+}
+@media only screen and (max-width: 400px) {
+    body{
+        background-color: purple;
+    }
+}
